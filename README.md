@@ -17,7 +17,7 @@ This repository contains the source code for a Book Library Service built using 
 
 1. Clone the repository: git clone https://github.com/your-username/book-library-service.git
 2. Install dependencies: npm install
-3. Set up environment variables: Create a .env file and add necessary variables like mongoURL.
+3. Set up environment variables: Create a **.env** file and add necessary variables like mongoURL & PORT.
 3. Start the server: npm run server
 ### Usage
 - To interact with the Book Library Service:
@@ -26,20 +26,20 @@ This repository contains the source code for a Book Library Service built using 
 - Ensure the server is running and connected to the MongoDB database.
 
 ### Endpoints
-- GET /books: Retrieve all books from the library.
-- GET /books/:id: Retrieve a specific book by ID.
-- POST /books: Add a new book to the library.
-- PUT /books/:id: Update an existing book by ID.
-- DELETE /books/:id: Delete a book from the library by ID.
+- **GET /books:** Retrieve all books from the library.
+- **GET /books/:id:** Retrieve a specific book by ID.
+- **POST /books:** Add a new book to the library.
+- **PUT /books/:id:** Update an existing book by ID.
+- **DELETE /books/:id:** Delete a book from the library by ID.
 #### Models
-- model/Book.Model.js: Defines the Mongoose schema for the book entity.
+- **model/Book.Model.js:** Defines the Mongoose schema for the book entity.
 #### Controllers
-- controllers/Book.Controllers.js: Contains controller functions to handle CRUD operations for books.
+- **controllers/Book.Controllers.js:** Contains controller functions to handle CRUD operations for books.
 #### Database
-- config/db.js: Connects to the MongoDB database using Mongoose.
+- **config/db.js:** Connects to the MongoDB database using Mongoose.
 
 ### Deployment
--The backend of the Book Library Service has been deployed at https://library-book-service.onrender.com/books.
+-The backend of the Book Library Service has been **deployed** at https://library-book-service.onrender.com/books.
 
 ### Contributing
 - Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request.
