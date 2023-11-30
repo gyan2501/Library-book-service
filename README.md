@@ -15,7 +15,7 @@ This repository contains the source code for a Book Library Service built using 
 ### Installation
 - To run the project locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/book-library-service.git
+1. Clone the repository: git clone [https://github.com/gyan2501/Library-book-service](https://github.com/gyan2501/Library-book-service)
 2. Install dependencies: npm install
 3. Set up environment variables: Create a **.env** file and add necessary variables like mongoURL & PORT.
 3. Start the server: npm run server
