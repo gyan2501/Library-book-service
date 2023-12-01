@@ -27,10 +27,10 @@ This repository contains the source code for a Book Library Service built using 
 
 ### Endpoints
 - **GET /books:** Retrieve all books from the library.
-- **GET /books/:id:** Retrieve a specific book by ID.
+- **GET /books/:id :** Retrieve a specific book by ID.
 - **POST /books:** Add a new book to the library.
-- **PUT /books/:id:** Update an existing book by ID.
-- **DELETE /books/:id:** Delete a book from the library by ID.
+- **PUT /books/:id :** Update an existing book by ID.
+- **DELETE /books/:id :** Delete a book from the library by ID.
 #### Models
 - **model/Book.Model.js:** Defines the Mongoose schema for the book entity.
 #### Controllers
